@@ -66,8 +66,9 @@ console.log('testing!!', stars[0]);
 let star = 0;
 
 while ( star < stars.length){
+  console.log('testing stars with while loop', stars[star]);
   star++;
-  console.log('testing stars', stars[star]);
+  //console.log('console log after while loop for stars', star);
 }
 
 
@@ -78,7 +79,8 @@ console.log('count from 0 to 5');
  let numberCount = 0;
 
  while ( numberCount < 5) {
-   console.log(numberCount++);
+   console.log('testing while loop for numberCount', numberCount);
+   numberCount++;
  }
 
 console.log('testing numbers', numberCount);
